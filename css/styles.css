@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  /* overscroll-behavior: none; */
+}
+/* headings */
+h1,
+h2,
+h3 {
+  font-family: "Montserrat-black", sans-serif;
+}
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* paddings for all containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section background colors */
+.colored-section {
+  background-color: #ff4c68;
+}
+
+/* title section */
+
+#title .row {
+  padding-top: 75px;
+}
+#title .nav-item {
+  padding: 0 25px;
+  font-size: 1.15rem;
+}
+#title .navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+#title-container {
+  padding: 3% 15%;
+}
+.title-top-container {
+  text-align: left;
+}
+/* title image */
+#title .row .phone {
+  width: 60%;
+  padding-top: 50px;
+  transform: rotate(25deg);
+  /* position: absolute; */
+}
+/* buttons */
+#title .row button {
+  margin-top: 50px;
+}
+#title .btn-outline-light {
+  margin-left: 20px;
+}
+
+/* features section */
+#features {
+  /* position: relative; */
+  z-index: 1;
+}
+#features .col-lg-4 {
+  padding: 5%;
+}
+#features p {
+  font-family: "Montserrat-black", sans-serif;
+}
+#features p {
+  color: #8f8f8f;
+}
+#features h3 {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+#features .fa {
+  padding-bottom: 10%;
+  color: #ef8172;
+}
+#features .fa:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials h2 {
+  color: #ffffff;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+#testimonials em {
+  color: #ffffff;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 5%;
+}
+.press-logo {
+  width: 18%;
+  padding: 40px;
+}
+
+/* pricing section */
+
+#pricing h3 {
+  font-weight: bold;
+}
+#pricing h2 {
+  color: black;
+}
+/* in order to keep the buttons along the same line, we put an invisible text */
+.invisible-text {
+  color: #ffffff;
+}
+#pricing {
+  padding: 7%;
+}
+
+#pricing .card {
+  margin: 10% 10px 10px;
+}
+
+/* making the title section responsive */
+@media screen and (max-width: 1100px) {
+  #title .phone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title h1 {
+    text-align: center;
+  }
+}
+
+/* cta (call to action) section */
+
+#cta .btn {
+  margin: 25px 10px 20px;
+}
+/* footer */
+
+#footer i {
+  padding: 20px 10px;
+}
+#footer p {
+  color: #8f8f8f;
+}
