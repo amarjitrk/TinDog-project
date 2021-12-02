@@ -144,6 +144,15 @@ h3 {
   #title h1 {
     text-align: center;
   }
+  .press-logo {
+    width: 18%;
+    padding: 15px;
+  }
+  .testimonials-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 30px;
+  }
 }
 
 /* cta (call to action) section */
